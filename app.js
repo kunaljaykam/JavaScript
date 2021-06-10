@@ -12,7 +12,7 @@ console.log(b);
 //document.getElementById("music").innerHTML = music;
 
 //numbers
-let num1 = 5.7;
+let num1 = 88.7;
 num1++;
 console.log(45 / 5);
 num1--;
@@ -60,3 +60,64 @@ addNumbers(34, 35);
 
 //Data types
 
+
+//Srings
+let cars = 'Ferrari,Tesla,Aston-Martin,BMW'
+
+console.log("strings-count" + cars.length)
+
+console.log(cars.split(','));
+
+console.log(cars.split('e'));
+
+
+//Array
+let Brands = ['Ferrari', 'Tesla', 'Aston-Martin', 'BMW', 'Apple-Car'];
+
+console.log(Brands[3]);
+
+Brands[0] = 'Mercedez';
+
+console.log(Brands);
+
+for (let i = 0; i < Brands.length; i++) {
+
+    console.log(Brands[i]);
+
+}
+
+// array methods
+console.log(Brands.join(' * '));
+console.log(Brands.pop(), Brands);
+
+
+
+
+// sort numbers
+
+let randomNumbers = [4, 2, 23, 55, 223, 333, 5234, 2, 56, 22, 23232, 52, 32, 232432, 552333, 55, 64];
+
+console.log(randomNumbers.sort(function (a, b) { return a - b }));   // sorted in ascending order
+
+
+
+let nullArray = [];
+for (let num = 0; num < 10; num++) {
+    nullArray.push(num);
+}
+console.log(nullArray);
+
+
+// Objects
+let player = { name: 'Virat', sport: 'Cricket', Country: 'India' , };
+
+console.log(player.name);
+
+// working with JSON
+ 
+
+let requestURL = 'https://randomuser.me/api';
+
+let data = JSON.stringify(requestURL)
+
+console.log(data)
