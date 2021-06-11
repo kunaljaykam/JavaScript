@@ -6,7 +6,7 @@ function age() {
     let ageInDays = birthYear * 365;
 
     
-    document.getElementById("flex-box-result").innerHTML =
+    document.getElementById("flex-box-result").textContent =
 			"You are " + ageInDays + " days old  🥳 ";
 };
 
