@@ -1,0 +1,18 @@
+.flex-box-container-1 {
+	display: flex;
+	color: grey;
+	padding: 10px;
+	justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+	padding: 10px;
+	border: 1px solid white;
+}
+
+.flex-box-container-12 h3 {
+	justify-content: center;
+	text-justify: center;
+	text-align: center;
+	margin-top: 25px;
+}
